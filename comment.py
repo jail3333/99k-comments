@@ -24,7 +24,7 @@ def comment(url):
                         'access_token':access_token
                   }
             connect = httplib.HTTPSConnection("graph.facebook.com")
-            connect.request("POST",path,urllib.urlencode(param_data),                  >
+            connect.request("POST",path,urllib.urlencode(param_data),{})                  >
             time.sleep(10.09)
 
 
